@@ -17,8 +17,7 @@ nav {
 nav > img {
 	width: 8%;
 }
-
-input[type="search"] {
+#sea {
 	border: 0px solid grey;
 	width: 600px;
 	padding: 10px 20px;
@@ -86,12 +85,28 @@ nav > a:hover {
 }
 
 .part {
-	margin: 20px 0px;
-	border: 1px solid red;
-	padding: 20px;
+	border: 0px solid red;
+	/* margin: 20px 0px; */
+	/* padding: 20px; */
 }
+#bgo {
+	text-align: center;
+	letter-spacing: 1.5px;
+	background-color: #619afc;
+}
+#bgo > p {
+	padding: 8px 0px;
+}
+
+#bgo > p > strong:hover {
+	text-decoration: underline;
+	color: #0046be;
+	cursor: pointer;
+}
+
 .a > img {
 	width: 100%;
+	cursor: pointer;
 }
 
 .b {
@@ -159,6 +174,7 @@ nav > a:hover {
 	color: white;
 	cursor: pointer;
 	margin: auto;
+	margin-left: 13px;
 	padding: 5px 10px;
 	transition: all 0.3s;
 	border-radius: 5px;
@@ -199,6 +215,15 @@ nav > a:hover {
 	padding: 20px 0px 20px 20px;
 	width: 71%;
 }
+.c-1 > div > h3 {
+	margin-top: 0%;
+	color: yellow;
+	padding: 5px 8px;
+	background-color: #2f7cff;
+	width: 112px;
+	cursor: pointer;
+	border: 1px solid #2f7cff;
+}
 .c-1 > div > img {
 	padding-left: 35px;
 	width: 100%;
@@ -210,13 +235,21 @@ nav > a:hover {
 	width: 148%;
 }
 
+.c-1 > div:nth-child(2) p {
+	margin: 0%;
+	margin-left: 40px;
+}
+
 #c-btn-1 {
 	border: 1px solid #0046c6;
 	background-color: white;
 	padding: 5px 10px;
 	color: #0046c6;
 	transition: all 0.5s;
+	margin-top: 20px;
+	margin-left: 40px;
 	border-radius: 2.5px;
+	cursor: pointer;
 }
 
 #c-btn-1:hover {
@@ -233,27 +266,31 @@ nav > a:hover {
 .c-2 > h4 {
 	margin-top: 0px;
 }
-hr {
-	margin-bottom: 30px;
+.c-2 > hr {
+	margin-bottom: 20px;
 }
-.c-2 > input[type="email"] {
+hr ~ p {
+	margin: 0%;
+}
+#mail {
 	border: 0.5px solid grey;
-	width: 80%;
+	width: 70%;
 	border-radius: 2.5px;
 	padding: 10px;
 	margin-right: 10px;
 }
-.c-2 > input[type="email"]:active {
+#mail:active {
 	border: 0.5px solid grey;
 }
 
 .d {
 	border: 0px solid blue;
 	padding: 20px 0px;
-	color: black;
+	/* color: black; */
 }
 .d-1 {
 	display: flex;
+	margin: 20px 0px;
 	justify-content: space-between;
 }
 
@@ -262,6 +299,7 @@ hr {
 	padding: 10px 20px;
 	padding-left: 80px;
 	width: 41%;
+	color: black;
 	display: flex;
 	background-color: #f0f2f4;
 }
@@ -269,6 +307,10 @@ hr {
 .d-1 > div > img {
 	height: 73px;
 	margin-left: 32px;
+	transition: all 0.5s;
+}
+.d-1 > div > img:hover {
+	transform: scale(1.1);
 }
 
 .d-1 > div > div {
@@ -282,15 +324,18 @@ hr {
 	margin: 0px;
 }
 
-div > a {
+#temp > a {
 	text-decoration: none;
+}
+#temp > a:hover {
+	text-decoration: underline;
 }
 
 .d-2 {
-	border: 1px solid purple;
+	border: 0px solid purple;
 	padding: 20px 0px;
-	margin: 40px 0px;
 	display: flex;
+	color: black;
 	justify-content: space-between;
 }
 .d-2 > div:nth-child(3) {
@@ -305,11 +350,357 @@ div > a {
 	padding-left: 80px;
 	display: flex;
 	column-gap: 20px;
+	cursor: pointer;
 }
-.d-2 > div > h3 {
-	margin: 0%;
-	margin-top: 5px;
-}
+
 .d-2 > div > img {
 	height: 40px;
+}
+
+#temp-2 {
+	margin: 0%;
+}
+#temp-2 > h3 {
+	margin: 0%;
+}
+#temp-2 > p {
+	margin: 0%;
+}
+
+.t-1 {
+	border: 0px solid purple;
+	padding: 20px 0px;
+	color: black;
+}
+
+.t-1-a {
+	border: 0px solid red;
+}
+.t-1-a > h2 {
+	border: 0px solid teal;
+	width: 17%;
+	margin-left: 20px;
+	display: inline;
+}
+.t-1-a > p {
+	border: 0px solid teal;
+	display: inline;
+}
+.t-1-a > hr {
+	margin: 25px auto;
+	width: 97%;
+}
+.t-2-b {
+	border: 0px solid blue;
+	display: grid;
+	width: 95%;
+	margin: auto;
+	gap: 20px;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.t-2-b > div {
+	border: 0px solid tomato;
+	padding: 10px;
+	/* width: 17%; */
+	border-radius: 10px;
+	text-align: center;
+	transition: all 0.5s;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.t-2-b > div:hover {
+	transform: scale(1.05);
+}
+.t-2-b > div > img {
+	height: 117px;
+}
+
+.t-2-b > div > h4 {
+	text-align: left;
+	transition: all 0.5s;
+	font-weight: 600;
+
+}
+.t-2-b > div > h4{
+	font-size:small;
+	font-weight: 500;
+	text-align: left;
+	transition: all 0.5s;
+
+}
+
+.t-2-b > div > h4:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #001e73;
+}
+
+#best-btn {
+	border: 0px solid grey;
+	align-items: center;
+	background-color: #619afc;
+	color: white;
+	cursor: pointer;
+	margin: 10px auto;
+	/* margin-left: 13px; */
+	padding: 5px 10px;
+	transition: all 0.3s;
+	border-radius: 5px;
+}
+#best-btn:hover {
+	border: 0px solid grey;
+	color: white;
+	background-color: #2f7cff;
+	transform: scale(1.1);
+}
+
+.k-1 {
+	border: 0px solid red;
+	background-color: #0046be;
+	display: flex;
+	justify-content: space-between;
+}
+
+.k-1 > div:nth-child(1) {
+	border: 0px solid teal;
+	display: flex;
+	width: 37%;
+	margin-left: 40px;
+}
+.k-1 > div:nth-child(2) {
+	border: 1px solid white;
+	height: 107px;
+	margin-top: 24px;
+}
+.k-1 > div:nth-child(3) {
+	border: 0px solid tomato;
+	width: 20%;
+}
+.k-1 > div:nth-child(4) {
+	border: 0px solid tomato;
+	width: 10%;
+	padding-top: 80px;
+}
+
+.k-1 > div > img {
+	height: 80px;
+	margin: 20px;
+	margin-top: 27px;
+}
+
+div > h4 {
+	margin-bottom: 0%;
+}
+.bc > div > h4:hover {
+	text-decoration: underline;
+	color: #2f7cff;
+	cursor: pointer;
+}
+div > p {
+	margin-top: 0%;
+}
+
+h4 ~ h2 {
+	color: yellow;
+	margin: 0%;
+}
+
+.k-1 > div:nth-child(4) a {
+	border: 1px solid white;
+	background-color: white;
+	border-radius: 2.5px;
+	text-decoration: none;
+	padding: 5px 8px;
+	font-size: 15px;
+	transition: all 0.5s;
+}
+
+.k-1 > div:nth-child(4) a:hover {
+	border: 1px solid white;
+	color: white;
+	background-color: #0046c6;
+}
+
+footer {
+	border: 0px solid red;
+	font-family: "Human BBY Digital", "Human Fallback", Arial, Helvetica,
+		sans-serif;
+	background-color: #f0f2f4;
+}
+.help {
+	/* border-bottom: 1px solid #d4d5d6; */
+	/* border-width: 80%; */
+	padding: 20px 0px;
+	color: black;
+	display: flex;
+	justify-content: space-around;
+}
+.help > div {
+	border: 0px solid greenyellow;
+	padding: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+svg {
+	height: 50px;
+	display: block;
+	fill: #70757d;
+	margin: auto;
+}
+
+div > strong {
+	color: #2f7cff;
+	font-size: 12px;
+}
+div > strong:hover {
+	color: #0046c6;
+	text-decoration: underline;
+}
+
+.support {
+	border: 0px solid green;
+	padding: 20px 40px;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+}
+#links {
+	border: 0px solid peru;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	width: 60%;
+}
+#links > div > h3 {
+	font-size: large;
+}
+#links > div > p {
+	color: #2f7cff;
+	font-weight: normal;
+	font-size: 12px;
+	cursor: pointer;
+}
+#links > div > p:hover {
+	text-decoration: underline;
+}
+
+#connect {
+	border: 0px solid green;
+	padding: 20px;
+	width: 35%;
+	background-color: white;
+}
+#connect > a {
+	text-decoration: none;
+	font-size: 13px;
+}
+#connect > div > div > a:hover {
+	text-decoration: underline;
+}
+
+#connect > h3 {
+	margin-bottom: 0%;
+}
+
+#connect > a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+#connect > hr {
+	margin: 20px auto;
+	opacity: 0.75;
+}
+#connect > div {
+	display: flex;
+}
+#connect > div > svg {
+	margin: 0%;
+	fill: #0046be;
+	height: 40px;
+}
+
+#connect > div > div {
+	display: inline;
+}
+
+#connect > div > div > p {
+	margin: 0%;
+	font-weight: bold;
+}
+
+#connect > div > div > a {
+	font-size: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+}
+
+#foot-btn {
+	border: 1px solid #0046be;
+	background-color: #0046be;
+	padding: 10px 15px;
+	color: white;
+	transition: all 0.5s;
+	margin-top: 20px;
+	/* margin-left: 40px; */
+	border-radius: 5px;
+	cursor: pointer;
+}
+#foot-btn:hover {
+	border: 1px solid #0046c6;
+	background-color: #001e73;
+	color: white;
+}
+#social {
+	display: flex;
+	justify-content: space-between;
+}
+#social > div > svg {
+	fill: #0046c6;
+	height: 30px;
+	cursor: pointer;
+}
+
+.foot-1 {
+	color: black;
+	display: flex;
+	padding: 20px 40px;
+	justify-content: space-between;
+	font-size: 13px;
+}
+
+.foot-1 > div:nth-child(2) a {
+	margin-left: 20px;
+}
+.foot-1 > div > a {
+	text-decoration: none;
+	color: #2f7cff;
+}
+.foot-1 > div > a:hover {
+	text-decoration: underline;
+}
+
+.end {
+	padding: 20px 40px;
+	font-size: 11px;
+	color: black;
+}
+.end > a {
+	text-decoration: none;
+	color: #2f7cff;
+	margin-right: 20px;
+}
+.end > a:hover {
+	text-decoration: underline;
+}
+.end > p {
+	margin-top: 20px;
+	font-size: 13px;
+	color: #555b61;
+}
+footer > hr {
+	width: 1283px;
 }
