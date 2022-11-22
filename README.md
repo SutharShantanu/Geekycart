@@ -6,11 +6,11 @@ A BestBuy Inspired e-commerce website. This project represent what we learned in
 
 | Color             | Hex                                                              |
 | ----------------- | ---------------------------------------------------------------- |
-| Theme Color       | ! #0046be |
-| Hover Color       | ! #4e88eb |
-| Background Color  | ! #f1f3f4 |
-| Button Color      | ! #0147be |
-| Cart Button Color | ! #ffe000 |
+| Theme Color       |  #0046be |
+| Hover Color       |  #4e88eb |
+| Background Color  |  #f1f3f4 |
+| Button Color      |  #0147be |
+| Cart Button Color |  #ffe000 |
 
 ## Features
 
