@@ -42,7 +42,7 @@ div > a > img {
 
 .user:hover,
 .cart:hover {
-	background-color: rgb(78, 136, 235);
+	background-color: #4e88eb;
 	padding: 10px;
 	border-radius: 5px;
 	transform: scale(1.1);
