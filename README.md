@@ -15,12 +15,12 @@ A BestBuy Inspired e-commerce website. This project represent what we learned in
 ## Features
 
 - Functional Login & SignUp
-- Live previews Using Netlify <a href="https://playful-sherbet-98d4d5.netlify.app/" target="_blank">Here</a>
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/a7bf28cb-ac88-4f1b-a37f-5571ad51d944/deploy-status)](https://app.netlify.com/sites/geekycart/deploys)
+- Live previews Using Netlify [![Netlify Status](https://api.netlify.com/api/v1/badges/a7bf28cb-ac88-4f1b-a37f-5571ad51d944/deploy-status)](https://app.netlify.com/sites/geekycart/deploys)
 
 # Logo
 
-![Logo](https://playful-sherbet-98d4d5.netlify.app/image/WhatsApp%20Image%20-11-10%20at%2000.07.23.jpg)
+![Logo](https://geekycart.netlify.app/image/WhatsApp%20Image%20-11-10%20at%2000.07.23.jpg)
+
 
 ## Screenshots
 
